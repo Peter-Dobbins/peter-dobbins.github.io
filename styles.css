@@ -50,3 +50,20 @@ p {
     padding: 10px;
 }
 
+.video-container {
+    overflow: hidden;
+}
+
+iframe {
+    float: right;
+    margin-left: 2vw;
+    margin-right: 2vw;
+    margin-top: 7vw;
+    border-radius: 10px;
+}
+
+.text {
+    
+    text-wrap: wrap;
+    
+}
