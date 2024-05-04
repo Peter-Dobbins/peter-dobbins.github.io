@@ -1,11 +1,52 @@
+body {
+    margin: 0;
+    padding: 0; /* Added to remove default padding */
+}
+
+header {
+    position: relative; /* Changed to relative */
+}
+
+img {
+    width: 100vw;
+    height: auto; /* Changed to auto to maintain aspect ratio */
+    margin: 0; /* Removed margin-bottom and padding-bottom */
+    padding: 0;
+}
+
+.pp {
+    height: 20vh;
+    width: 90vw;
+    position: absolute;
+    top: 60%; /* Adjusted position */
+    left: 5%; /* Adjusted position */
+}
+.c {
+    height: 20vh;
+    width: 80vw;
+    position: absolute;
+    top: 79%; /* Adjusted position */
+    left: 10%; /* Adjusted position */
+}
+
+section {
+    padding-top: 1vh; /* Added padding to move the h1 below the pp image */
+}
+
 h1 {
+    margin: 0; /* Added to remove default margin */
+    padding: 20px; /* Added to give some space around the text */
     text-decoration: underline;
     text-align: center;
 }
+
 h2 {
     text-align: center;
+    padding: 10px;
 }
 
 p {
     font-size: large;
+    padding: 10px;
 }
+
