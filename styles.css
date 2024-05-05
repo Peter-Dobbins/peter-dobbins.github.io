@@ -19,14 +19,14 @@ img {
     width: 90vw;
     position: absolute;
     top: 60%; /* Adjusted position */
-    left: 5%; /* Adjusted position */
+    left: 3%; /* Adjusted position */
 }
 .c {
     height: 20vh;
     width: 80vw;
     position: absolute;
     top: 79%; /* Adjusted position */
-    left: 10%; /* Adjusted position */
+    left: 9%; /* Adjusted position */
 }
 
 section {
@@ -48,6 +48,8 @@ h2 {
 p {
     font-size: large;
     padding: 10px;
+    text-wrap: wrap;
+    
 }
 
 .video-container {
@@ -67,3 +69,83 @@ iframe {
     text-wrap: wrap;
     
 }
+
+ 
+.appCon {
+    display: flex;
+    justify-content: space-evenly; /* Adjust this to your needs */
+  }
+
+  .appImages {
+    width: auto; /* Adjust the width as needed */
+    height: 15vh; /* Maintain aspect ratio */
+  }
+  .appImages2 {
+    width: auto; /* Adjust the width as needed */
+    height: 10vh; /* Maintain aspect ratio */
+    padding-top: 5vh;
+  }
+
+  .email {
+    text-align: center;
+    font-size: larger;
+  }
+
+  .gif {
+    width: 40vw;
+    height: auto;
+    
+  }
+
+  .giffCon {
+    text-align: center;
+    margin-top: -2vh;
+  }
+  .level {
+    float: left;
+    width: 50vw;
+    height: auto;
+    margin-right: 10px;
+    margin-top: 2vh;
+    margin-left: 10px;
+
+  }
+  .level2 {
+    float: right;
+    width: 40vw;
+    height: auto;
+    margin-right: 10px;
+    margin-top: -10vh;
+    margin-left: 10px;
+    border-radius: 10px;
+    clear: right; /* Clear the float */
+}
+
+  
+  @font-face {
+    font-family: "one"; /* Name of the font */
+    src: url('../images/detroit_ghetto/one.ttf') format('truetype'); /* Path to your font file */
+    /* You can use multiple formats like woff, woff2, etc. for better compatibility */
+}
+
+.center {
+    text-align: center;
+    margin-top: 10vh;
+    margin-bottom: -3vh;
+}
+
+span {
+    font-family: "one";
+}
+
+.tip {
+    font-family: "one";
+    text-align: center;
+    font-size: xx-large;
+    margin-bottom: -3vh;
+    margin-top: 3vh;
+}
+
+
+
+
