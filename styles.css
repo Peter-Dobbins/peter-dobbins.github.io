@@ -7,21 +7,22 @@ header {
     position: relative; /* Changed to relative */
 }
 
-img {
+.banner {
     width: 100vw;
     height: auto; /* Changed to auto to maintain aspect ratio */
     margin: 0; /* Removed margin-bottom and padding-bottom */
     padding: 0;
+    display: block;
 }
 
-.pp {
+.pp-header {
     height: 20vh;
     width: 90vw;
     position: absolute;
     top: 60%; /* Adjusted position */
     left: 3%; /* Adjusted position */
 }
-.c {
+.c-header {
     height: 20vh;
     width: 80vw;
     position: absolute;
@@ -48,7 +49,7 @@ h2 {
 p {
     font-size: large;
     padding: 10px;
-
+    text-wrap: wrap;
     
 }
 
@@ -62,7 +63,11 @@ iframe {
     margin-right: 2vw;
     margin-top: 7vw;
     border-radius: 10px;
+    height: 15vh;
+    width: 50vw;
 }
+
+
 
  
 .appCon {
@@ -78,6 +83,7 @@ iframe {
     width: auto; /* Adjust the width as needed */
     height: 10vh; /* Maintain aspect ratio */
     padding-top: 5vh;
+    border-radius: 10px;
   }
 
   .email {
@@ -129,6 +135,95 @@ span {
     margin-top: 3vh;
 }
 
+/* desktop/ or min 769!*/
+
+/* Hide mobile banner image */
+@media only screen and (min-width: 667px) {
+    /* Default styles */
+/* Default styles */
+header {
+    background-image: url('images/banner800.png');
+    background-size: cover;
+    background-position: center;
+    width: 100vw; /* Adjust height as needed */
+    height: 100vh;
+}
+
+.level {
+    float: left;
+    width: 20vw;
+    height: auto;
+    margin-right: 10px;
+    margin-top: 2vh;
+    margin-left: 10px;
+
+  }
+  iframe {
+    
+    
+    margin-top: 7vw;
+    border-radius: 10px;
+    height: 50vh;
+    width: 40vw;
+
+}
+.bigTitles {
+    font-size: xx-large;
+} 
+
+p {
+    font-size: x-large;
+    
+}
+
+.gif {
+    width: 20vw;
+    height: auto;
+    
+  }
+
+.topMargin{
+    margin-top: 15vh;
+    margin-bottom: -2vh;
+}
+
+.hello {
+    font-size: xx-large;
+}
+.video-container {
+    overflow: hidden;
+    text-align: center;
+}
+.banner {
+    display: none; /* Hide mobile banner image */
+}
+
+header img {
+    display: none;
+}
+.navbar {
+    display: flex; /* Show navbar for desktop screens */
+    justify-content: space-evenly;
+}
+
+/* Reset display for navbar links and navbar images */
+.navbar a,
+.navbar img {
+    display: inline-block;
+}
+
+}
+
+@media only screen and (max-width: 667px) {
+    /* Default styles */
+/* Default styles */
+body nav a img {
+    display: none;
+}
 
 
+
+
+
+}
 
