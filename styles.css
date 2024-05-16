@@ -150,6 +150,14 @@ header {
     height: 100vh;
 }
 
+.c-navbar {
+    width: 50vw;
+}
+
+.pp-navbar {
+    width: 50vw;
+}
+
 .level {
     float: left;
     width: 20vw;
