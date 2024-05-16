@@ -143,10 +143,7 @@ span {
 /* Default styles */
 header {
     background-image: url('images/banner800.png');
-    background-size: cover;
-    background-position: center;
     width: 100vw; /* Adjust height as needed */
-    height: 100vh;
 }
 
 .level {
